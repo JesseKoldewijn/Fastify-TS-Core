@@ -1,0 +1,27 @@
+{
+	"name": "fastify-core",
+	"description": "A simple fastify server with file based routes",
+	"version": "1.0.0",
+	"type": "module",
+	"keywords": [
+		"typescript",
+		"fastify"
+	],
+	"author": "Jesse Koldewijn <dev@glitchtech.eu>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "tsx watch main.ts",
+		"build": "tsc -p tsconfig.json",
+		"start": "node dist/main.js"
+	},
+	"dependencies": {
+		"fastify": "^4.28.0",
+		"pino-pretty": "^11.2.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.2",
+		"tsx": "^4.15.5",
+		"typescript": "^5.4.5"
+	}
+}
